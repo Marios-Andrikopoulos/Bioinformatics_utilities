@@ -13,7 +13,7 @@ import subprocess
 import os
 
 
-perl_rename_path = "/".join(os.path.realpath(__file__).split("/")[:-1]) + "/cool_rename.pl"
+perl_rename_path = "/".join(os.path.realpath(__file__).split("/")[:-1]) + "/nexus_rename.pl"
 parser = argparse.ArgumentParser()
 parser.add_argument("-o", "--output", type=str, default="../MITO/NEX/MITO.nex")
 parser.add_argument("-i", "--input", type=str, default="../MITO/NEX/*cor.nex")
